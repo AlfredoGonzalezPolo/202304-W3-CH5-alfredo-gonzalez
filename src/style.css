@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://images2.fanpop.com/image/photos/10300000/pokemon-pokemon-10305173-1280-960.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.buttons_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+p {
+  color: aliceblue;
+}
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.pokemon {
+  border-bottom: 1px solid fuchsia;
+  list-style: none;
+}
