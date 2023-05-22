@@ -6,6 +6,7 @@ export class PokemonApi {
 
   async getAllInfo() {
     const response = await fetch(this.apiUrl);
-    return response.json();
+    const result = await response.json();
+    return result.results;
   }
 }
